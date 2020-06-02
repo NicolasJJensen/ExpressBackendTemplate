@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.9.12",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.3"
+  },
+  "_moduleAliases": {
+    "@controllers": "./controllers",
+    "@db": "./database",
+    "@helpers": "./helpers",
+    "@middleware": "./middleware",
+    "@routes": "./routes"
+  }
+}
